@@ -12,7 +12,7 @@ public class RandomNumberGeneration : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        numberText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -23,8 +23,9 @@ public class RandomNumberGeneration : MonoBehaviour
 
     public void OnClick_NumberGenerator()
     {
+        numberText.SetActive(true);
         num = Random.Range(0, 99);
-        numberText.GetComponent<Text>().text = "Number is: " + num;
+        numberText.GetComponent<Text>().text = "" + num;
     }
 
 }
