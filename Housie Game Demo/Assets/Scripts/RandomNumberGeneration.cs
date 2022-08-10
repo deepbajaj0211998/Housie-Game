@@ -8,6 +8,7 @@ public class RandomNumberGeneration : MonoBehaviour
 
     public int num;
     public GameObject numberText;
+    public Button rnButton;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class RandomNumberGeneration : MonoBehaviour
         numberText.SetActive(true);
         num = Random.Range(0, 99);
         numberText.GetComponent<Text>().text = "" + num;
+        rnButton.GetComponent<Button>().enabled = false;
     }
 
 }
