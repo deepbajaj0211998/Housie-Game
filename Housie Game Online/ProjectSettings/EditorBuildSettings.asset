@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/BrilliantBingoStartScene.unity
   - enabled: 1
-    path: Assets/Scenes/BrilliantBingoScene.unity
+    path: Assets/Scenes/PhotonNetworkScene.unity
+    guid: be7d18cd96005124e8eeab52a4b433b0
+  m_configObjects: {}
